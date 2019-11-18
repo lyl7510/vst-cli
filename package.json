@@ -1,0 +1,21 @@
+{
+  "name": "vst-cli",
+  "version": "1.0.2",
+  "description": "create project cli tools",
+  "bin": {
+    "vst-cli": "./bin/vst-cli.js"
+  },
+  "main": "./bin/vst-cli.js",
+  "repository": {
+    "type": "git",
+    "url": "http://182.61.43.182:4873/"
+  },
+  "keywords": [
+    "vst-cli"
+  ],
+  "author": "liyanlei",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-spawn": "^7.0.1"
+  }
+}
