@@ -26,7 +26,7 @@ const devServer = new webpackDevServer(compiler, {
         aggregateTimeout:300,
         poll:300
     },
-    clientLogLevel:"warning"
+    clientLogLevel:"info"
 })
 
 devServer.listen(PORT, HOST, function (err) {

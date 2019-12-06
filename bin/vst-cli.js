@@ -14,8 +14,9 @@ if (script == null) {
 
 switch (script) {
     case "build":
+    case "dll":
     case "start": {
-        const result = spawn.sync('node',[require.resolve('../scripts/' + script)] , { stdio: 'inherit' });
+        const result = spawn.sync('node', [require.resolve('../scripts/' + script)], {stdio: 'inherit'});
         break;
     }
     default:
