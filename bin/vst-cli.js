@@ -15,6 +15,7 @@ if (script == null) {
 switch (script) {
     case "build":
     case "dll":
+    case "copycss":
     case "start": {
         const result = spawn.sync('node', [require.resolve('../scripts/' + script)], {stdio: 'inherit'});
         break;
