@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-'use strict';
 
+'use strict';
 const chalk = require('chalk');
 const spawn = require('cross-spawn');
 
